@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>homepage</title>
+  <style>
+    /* Phần tab bar */
+    .tab {
+      overflow: hidden;
+      background-color: #529cc7;
+      display: flex;
+      align-items: center;
+      border-radius: 10px;
+    }
+
+    .tab button {
+      background-color: inherit;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+      color: white;
+    }
+
+    .tab button:hover {
+      background-color: #ddd;
+    }
+
+    .tab button.active {
+      background-color: #ccc;
+    }
+
+    /* Thanh tìm kiếm */
+    .search-bar {
+      margin-left: auto; /* Đẩy sang bên phải */
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .search-bar input {
+      width: 380px;
+      height: 40px;
+      margin-right: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    /* Logo */
+    .logo {
+      width: 50px;
+      height: 50px;
+      
+    }
+
+    /* Phần bên dưới trống */
+    .content {
+      margin-top: 20px;
+    }
+    .okchua{
+        margin-right: 380px;
+    }
+    .logo{
+        float: left;
+        margin-right: 10px;
+        
+        
+    }
+    .nameshop{
+        display: flex;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="tab">
+    <div class="search-bar">
+      <div class="okchua">
+      <img src="logo.png" alt="Logo" class="logo">
+      <label class="nameshop"> ∞ d'or Infinity</label>
+      </div>
+      <input type="search" placeholder="Search something you want...">
+      <button type="submit" class="searchbutton">Search</button>
+    </div>
+    <button>Home</button>
+    <button>Category</button>
+    <button>Become seller</button>
+    <button>Orders</button>
+  </div>
+
+  <div class="content">
+    
+  </div>
+</body>
+</html>
